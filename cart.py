@@ -3,3 +3,4 @@ def cart_total(items):
 
 def apply_discount(total, percent):
     return total * (1 - percent / 100)# tiered discount attempt v1
+# tiered discount attempt v2 (still broken)
