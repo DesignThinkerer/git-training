@@ -3,3 +3,4 @@ def apply_tax(total):
 
 def apply_shipping(total, cost):
     return total + cost
+# tax logic finalized
