@@ -1,6 +1,2 @@
-def cart_total(items):
-    return sum(item.price for item in items)
-
-def apply_discount(total, percent):
-    return total * (1 - percent / 100)# tiered discount attempt v1
-# tiered discount attempt v2 (still broken)
+def apply_tax(total):
+ return total * 1.10
